@@ -10,13 +10,13 @@ export default [
           ],
     },
     {
-        question: "Em que país foi construído o Muro de Berlim?",
+        question: "Qual é a capital do Brasil",
         answers: [
-            { option: "Estados Unidos", correct: true },
-            { option: "China", correct: false },
-            { option: "Coreina do Norte", correct: false },
-            { option: "Alemanha", correct: true },
-            { option: "Brasil", correct: false },
+            { option: "Brasília", correct: true },
+            { option: "Acre", correct: false },
+            { option: "Rio De Janeiro", correct: false },
+            { option: "São Paulo", correct: true },
+            { option: "Bahia", correct: false },
           ],
     },
     {
