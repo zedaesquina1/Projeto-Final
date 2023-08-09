@@ -1,0 +1,1 @@
+let nome = prompt('Me diga o seu nome para começarmos')
