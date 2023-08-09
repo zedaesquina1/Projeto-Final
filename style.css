@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=DynaPuff&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 * {
@@ -14,19 +20,25 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5px;
-  background: linear-gradient(90deg, rgb(61, 111, 167) 0%, rgba(77,39,182,1) 100%);
+  background-image: url(src/brasil.jpg);
+  background-repeat: no-repeat;
+ background-size: cover;
+  
 }
 
 body h2 {
   color: white;
+  font-family: 'Anonymous Pro', monospace;
+font-family: 'DynaPuff', cursive;
+font-size: 3rem;
 }
 
 main {
-  background-color: white;
+  background-color: rgba(252, 252, 252, 0.356);
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -57,9 +69,10 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #008CCC;
+  background-color: #1976ccf3;
   color: white;
-  transition: 0.5;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .finish {
@@ -70,4 +83,18 @@ button {
 
 .finish button {
   text-align: center;
+}
+
+.question{
+  font-family: 'EB Garamond', serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.corTitulo{
+  background: linear-gradient(90deg, rgb(236, 236, 32), rgba(25, 231, 25, 0.822), rgb(236, 236, 38));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
