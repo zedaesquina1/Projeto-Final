@@ -1,4 +1,6 @@
-function logar() {
-    let nome = prompt('Me diga o seu nome para começarmos') 
-    let seuNome = document.write("login")
+
+let nome =""
+while(nome ===""){
+    nome = prompt('Por favor me diga o seu nome')
 }
+
